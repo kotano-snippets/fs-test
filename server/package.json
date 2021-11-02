@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lowdb": "^3.0.0",
+    "nodemon": "^2.0.14",
+    "socket.io": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "db/*"
+    ],
+    "delay": 2500
+  }
+}
