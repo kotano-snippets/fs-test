@@ -22,7 +22,7 @@ const GlobalStyles = createGlobalStyle`
 const root = document.getElementById('root')
 render(
   <>
-    {/* <GlobalStyles /> */}
+    <GlobalStyles />
     <App />
   </>,
   root
